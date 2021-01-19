@@ -1,0 +1,53 @@
+/*-------------------------
+header-v4
+--------------------------*/
+.header-v5 {
+  padding: 1.5rem 0;
+  .menu-wrap {
+    @include flex-position(flex, space-between, center);
+  }
+  .main-menu {
+    ul {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        a {
+          font-size: 1.6rem;
+          font-weight: 400;
+          text-transform: capitalize;
+          padding: 0 2rem;
+          color: var(--color-one);
+          transition: $transition;
+          &:hover {
+            color: #2896F7;
+          }
+        }
+        &.current-menu-item {
+          a {
+            color: #2896F7;
+          }
+        }
+      }
+    }
+  }
+  .header-rgiht {
+    .register-btn {
+      display: inline-block;
+      padding: 1.4rem 2.5rem;
+      background-color: #2896F7;
+      border-radius: 0.4rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-transform: capitalize;
+      color: var(--white);
+      transition: $transition;
+      &:hover {
+        color: var(--white);
+        background: #1564AA;
+      }
+    }
+  }
+}

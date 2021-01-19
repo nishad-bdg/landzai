@@ -1,0 +1,40 @@
+.footer-area-v2 {
+  padding-top: 21rem;
+  background: url("../images/footer-two-bg.jpg") no-repeat center / cover;
+  .footer-widget-area {
+    border-top: 1px solid var(--border-color);
+    .footer-menu {
+        ul {
+          li {
+            a {
+              &:hover {
+                color: var(--hover-color-two);
+              }
+            }
+          }
+        }
+      }
+  }
+  .social-media {
+    li {
+      a {
+        background: var(--white);
+        color: var(--secondary-color-two);
+        &:hover {
+          background: var(--secondary-color-two);
+          color: var(--white);
+        }
+      }
+    }
+  }
+  .copyright-area {
+    .copyright {
+      a {
+        color: var(--primary-color-two);
+        &:hover {
+          color: var(--hover-color-two);
+        }
+      }
+    }
+  }
+}

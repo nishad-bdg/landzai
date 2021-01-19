@@ -1,0 +1,35 @@
+/*--------------------------
+10.service-area
+---------------------------*/
+.service-area {
+    background: var(--banner-bg-one);
+    .single-service {
+        padding: 4.5rem;
+        border-radius: 1.2rem;
+        @include primary-box-shadow;
+        background: var(--white);
+        margin-bottom: 3rem;
+        .service-icon {
+            width: 8rem;
+            height: 8rem;
+            line-height: 8rem;
+            border-radius: 50%;
+            background: var(--bg-color-four);
+            margin: 0 auto;
+            i {
+                color: var(--primary-color);
+               &:before {
+                font-size: 35px;
+               }
+            }
+        }
+        .service-title {
+            margin-top: 2.5rem;
+            margin-bottom: 0;
+            font-size: 1.8rem;
+            font-weight: 600;
+            line-height: 2.6rem;
+            color: var(--color-one);
+        }
+    }
+}

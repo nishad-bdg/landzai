@@ -1,0 +1,44 @@
+/*--------------------------
+14.app-screens-area
+---------------------------*/
+
+.app-screens-area {
+  background: var(--banner-bg-one);
+  .single-screen {
+    padding: 0 1.5rem;
+    img {
+      border: 1px solid var(--black);
+      border-radius: 2.6rem;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .slick-dots {
+    margin: 3rem 0 0 0;
+    padding: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 0 0.5rem;
+      line-height: 1;
+      font-size: 0;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 1px solid var(--black);
+      background: transparent;
+      transition: $transition;
+      &:hover {
+        background: var(--primary-color);
+        border-color: var(--primary-color);
+      }
+      &.slick-active {
+        background: var(--primary-color);
+        border-color: var(--primary-color);
+      }
+      button {
+        display: none;
+      }
+    }
+  }
+}

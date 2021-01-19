@@ -1,0 +1,26 @@
+/*--------------------------
+banner-area-v2
+---------------------------*/
+.banner-area-v2 {
+  padding: 22rem 0 40rem 0;
+  background: url("../images/banner-bg-v2.jpg") no-repeat center / cover;
+  .banner-text-wrap {
+    text-align: center;
+    .banner-title {
+      margin-bottom: 2rem;
+      font-family: $titlefont;
+      font-size: 6.4rem;
+      line-height: 7.2rem;
+      font-weight: 700;
+      text-transform: capitalize;
+      color: var(--color-one);
+    }
+    .banner-content {
+      width: 80%;
+      margin: auto;
+      font-size: 1.8rem;
+      line-height: 3rem;
+      color: var(--bColor);
+    }
+  }
+}

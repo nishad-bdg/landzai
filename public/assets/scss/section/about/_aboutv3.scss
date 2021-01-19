@@ -1,0 +1,21 @@
+/*--------------------------
+about-area-three
+---------------------------*/
+.about-area-three {
+  background: url("../images/about-area-three-bg.png") no-repeat center / cover;
+  .about-info {
+    .section-title-four {
+      margin-bottom: 2.3rem;
+    }
+    p {
+      margin-top: 0;
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      font-weight: 400;
+      color: var(--bColor);
+    }
+    .primary-btn-four {
+      margin-top: 1rem;
+    }
+  }
+}

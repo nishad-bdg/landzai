@@ -1,0 +1,26 @@
+/*--------------------------
+24.section-bg
+---------------------------*/
+.section-bg {
+  position: relative;
+  z-index: 1;
+  &:before {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    border-radius: 5rem;
+    background: var(--background-two);
+  }
+}
+
+.section-bg-two {
+  background: #fbf7ee;
+}
+.body-bg {
+  background: #fffbf2;
+}
