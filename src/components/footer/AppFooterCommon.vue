@@ -1,6 +1,30 @@
 <template>
-  <footer class="footer-area-v4">
+  <footer class="footer-area-v5">
     <div class="container">
+      <!-- brands area start here  -->
+      <div class="brands-list-area">
+        <div class="brand-list slide-brands">
+          <div class="single-brand">
+            <a href="#"><img src="assets/images/brand/1.png" alt="brand anme" /></a>
+          </div>
+          <div class="single-brand">
+            <a href="#"><img src="assets/images/brand/2.png" alt="brand anme" /></a>
+          </div>
+          <div class="single-brand">
+            <a href="#"><img src="assets/images/brand/3.png" alt="brand anme" /></a>
+          </div>
+          <div class="single-brand">
+            <a href="#"><img src="assets/images/brand/4.png" alt="brand anme" /></a>
+          </div>
+          <div class="single-brand">
+            <a href="#"><img src="assets/images/brand/5.png" alt="brand anme" /></a>
+          </div>
+          <div class="single-brand">
+            <a href="#"><img src="assets/images/brand/6.png" alt="brand anme" /></a>
+          </div>
+        </div>
+      </div>
+      <!-- brands area end here  -->
       <div class="footer-widget-area">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-6">
@@ -72,6 +96,6 @@
 </template>
 <script>
 export default {
-  name: "AppFooter4",
-};
+    name: "AppFooterCommon"
+}
 </script>
