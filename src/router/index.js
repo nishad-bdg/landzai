@@ -114,6 +114,16 @@ const routes = [
     name: "ShopGridSidebar",
     component: () => import('../views/shop_grid/ShopGridSidebar.vue')
   },
+  {
+    path: '/shop-list',
+    name: "ShopList",
+    component: () => import('../views/shop_list/ShopList.vue')
+  },
+  {
+    path: '/shop-list-sidebar',
+    name: "ShopListSide",
+    component: () => import('../views/shop_list/ShopListSide.vue')
+  },
   
 ]
 
