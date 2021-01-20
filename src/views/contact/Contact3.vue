@@ -12,12 +12,12 @@ import AppLoader from "@/components/AppLoader";
 import PageNavbar from "@/components/navbar/PageNavbar";
 import AppBreadcrumb from "@/components/AppBreadcrumb.vue";
 import AppFooter from "@/components/footer/AppFooterCommon.vue";
-import AppContact from '@/components/contact/AppContact.vue';
+import AppContact from '@/components/contact/AppContact3.vue';
 
 
 
 export default {
-  name: "Contact",
+  name: "Contact3",
   components: {
     AppLoader,
     PageNavbar,

@@ -79,6 +79,16 @@ const routes = [
     name: "Contact",
     component: () => import('../views/contact/Contact.vue')
   },
+  {
+    path: '/contact2',
+    name: "Contact2",
+    component: () => import('../views/contact/Contact2.vue')
+  },
+  {
+    path: '/contact3',
+    name: "Contact3",
+    component: () => import('../views/contact/Contact3.vue')
+  },
 ]
 
 const router = new VueRouter({
