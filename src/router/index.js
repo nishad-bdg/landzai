@@ -49,6 +49,11 @@ const routes = [
     name: "BlogLeft",
     component: () => import('../views/blog/BlogLeft.vue')
   },
+  {
+    path: '/blog-right',
+    name: "BlogRight",
+    component: () => import('../views/blog/BlogRight.vue')
+  },
 ]
 
 const router = new VueRouter({
