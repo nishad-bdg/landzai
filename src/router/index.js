@@ -89,6 +89,21 @@ const routes = [
     name: "Contact3",
     component: () => import('../views/contact/Contact3.vue')
   },
+  {
+    path: '/register',
+    name: "Register",
+    component: () => import('../views/register/Register.vue')
+  },
+  {
+    path: '/register2',
+    name: "Register2",
+    component: () => import('../views/register/Register2.vue')
+  },
+  {
+    path: '/register3',
+    name: "Register3",
+    component: () => import('../views/register/Register3.vue')
+  },
 ]
 
 const router = new VueRouter({
