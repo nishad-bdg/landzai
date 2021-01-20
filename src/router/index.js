@@ -124,6 +124,11 @@ const routes = [
     name: "ShopListSide",
     component: () => import('../views/shop_list/ShopListSide.vue')
   },
+  {
+    path: '/process',
+    name: "Process",
+    component: () => import('../views/Process.vue')
+  },
   
 ]
 
