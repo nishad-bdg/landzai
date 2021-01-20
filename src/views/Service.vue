@@ -30,6 +30,13 @@ export default {
         AppExceptional,
         WorkArea,
         AppFooter,
+    },
+    data(){
+        return{
+            pageObj:{
+                title: "Service",
+            }
+        }
     }
     
 }

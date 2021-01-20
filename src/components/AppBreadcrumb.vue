@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="breadcrumb-wrap text-center">
-            <h2 class="page-title">Service</h2>
+            <h2 class="page-title">{{ currentPage }}</h2>
             <ul class="breadcrumb-page">
               <li><a href="/">Home</a></li>
               <li class="current-page">{{ currentPage }}</li>

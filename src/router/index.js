@@ -11,7 +11,7 @@ const routes = [
   },
   {
     path: '/home2',
-    name: 'Home',
+    name: 'Home2',
     component: () => import('../views/home/Home2.vue')
   },
   {
@@ -33,7 +33,12 @@ const routes = [
     path: '/about',
     name: "About",
     component: () => import('../views/About.vue')
-  }
+  },
+  {
+    path: '/apply-form',
+    name: "ApplyForm",
+    component: () => import('../views/ApplyForm.vue')
+  },
 ]
 
 const router = new VueRouter({
