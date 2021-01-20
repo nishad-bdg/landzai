@@ -54,6 +54,11 @@ const routes = [
     name: "BlogRight",
     component: () => import('../views/blog/BlogRight.vue')
   },
+  {
+    path: '/career-details',
+    name: "CareerDetails",
+    component: () => import('../views/career/CareerDetails.vue')
+  },
 ]
 
 const router = new VueRouter({

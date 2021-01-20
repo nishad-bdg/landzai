@@ -8,7 +8,7 @@
                                 <div class="single-blog">
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="images/blog/7.jpg" alt="blog img" />
+                                            <img src="assets/images/blog/7.jpg" alt="blog img" />
                                         </a>
                                     </div>
                                     <div class="blog-info">
@@ -26,7 +26,7 @@
                                 <div class="single-blog">
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="images/blog/8.jpg" alt="blog img" />
+                                            <img src="assets/images/blog/8.jpg" alt="blog img" />
                                         </a>
                                     </div>
                                     <div class="blog-info">
@@ -44,7 +44,7 @@
                                 <div class="single-blog">
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="images/blog/9.jpg" alt="blog img" />
+                                            <img src="assets/images/blog/9.jpg" alt="blog img" />
                                         </a>
                                     </div>
                                     <div class="blog-info">
@@ -62,7 +62,7 @@
                                 <div class="single-blog">
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="images/blog/10.jpg" alt="blog img" />
+                                            <img src="assets/images/blog/10.jpg" alt="blog img" />
                                         </a>
                                     </div>
                                     <div class="blog-info">
@@ -80,7 +80,7 @@
                                 <div class="single-blog">
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="images/blog/11.jpg" alt="blog img" />
+                                            <img src="assets/images/blog/11.jpg" alt="blog img" />
                                         </a>
                                     </div>
                                     <div class="blog-info">
@@ -98,7 +98,7 @@
                                 <div class="single-blog">
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="images/blog/12.jpg" alt="blog img" />
+                                            <img src="assets/images/blog/12.jpg" alt="blog img" />
                                         </a>
                                     </div>
                                     <div class="blog-info">
@@ -155,7 +155,7 @@
                                     <li class="single-post">
                                         <div class="media ">
                                             <div class="post-thumbnail mr-4">
-                                                <a href="#"><img src="images/blog/p-post1.png" alt="blog" /></a>
+                                                <a href="#"><img src="assets/images/blog/p-post1.png" alt="blog" /></a>
                                             </div>
                                             <div class="media-body">
                                               <h4 class="post-time"> <span class="date">15</span> Jan, 2020</h4>
@@ -166,7 +166,7 @@
                                     <li class="single-post">
                                         <div class="media ">
                                             <div class="post-thumbnail mr-4">
-                                                <a href="#"><img src="images/blog/p-post2.png" alt="blog" /></a>
+                                                <a href="#"><img src="assets/images/blog/p-post2.png" alt="blog" /></a>
                                             </div>
                                             <div class="media-body">
                                               <h4 class="post-time"> <span class="date">15</span> Jan, 2020</h4>
@@ -177,7 +177,7 @@
                                     <li class="single-post">
                                         <div class="media ">
                                             <div class="post-thumbnail mr-4">
-                                                <a href="#"><img src="images/blog/p-post3.png" alt="blog" /></a>
+                                                <a href="#"><img src="assets/images/blog/p-post3.png" alt="blog" /></a>
                                             </div>
                                             <div class="media-body">
                                               <h4 class="post-time"> <span class="date">15</span> Jan, 2020</h4>
@@ -188,7 +188,7 @@
                                     <li class="single-post">
                                         <div class="media ">
                                             <div class="post-thumbnail mr-4">
-                                                <a href="#"><img src="images/blog/p-post4.png" alt="blog" /></a>
+                                                <a href="#"><img src="assets/images/blog/p-post4.png" alt="blog" /></a>
                                             </div>
                                             <div class="media-body">
                                               <h4 class="post-time"> <span class="date">15</span> Jan, 2020</h4>
