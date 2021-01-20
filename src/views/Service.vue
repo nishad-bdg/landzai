@@ -1,5 +1,6 @@
 <template>
     <div>
+        <AppLoader />
         <PageNavbar />
         <AppBreadcrumb currentPage = "Service" />
         <AppServices />
@@ -10,6 +11,7 @@
     </div>
 </template>
 <script>
+import AppLoader from '@/components/AppLoader'
 import PageNavbar from '@/components/navbar/PageNavbar'
 import AppBreadcrumb from '@/components/AppBreadcrumb.vue'
 import AppServices from '@/components/service/AppService4'
@@ -21,6 +23,7 @@ import AppFooter from '@/components/footer/AppFooterCommon.vue'
 export default {
     name: "Service",
     components:{
+        AppLoader,
         PageNavbar,
         AppBreadcrumb,
         AppServices,
