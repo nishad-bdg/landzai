@@ -104,6 +104,17 @@ const routes = [
     name: "Register3",
     component: () => import('../views/register/Register3.vue')
   },
+  {
+    path: '/shop-grid',
+    name: "ShopGrid",
+    component: () => import('../views/shop_grid/ShopGrid.vue')
+  },
+  {
+    path: '/shop-grid-sidebar',
+    name: "ShopGridSidebar",
+    component: () => import('../views/shop_grid/ShopGridSidebar.vue')
+  },
+  
 ]
 
 const router = new VueRouter({
