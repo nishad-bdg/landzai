@@ -129,7 +129,12 @@ const routes = [
     name: "Process",
     component: () => import('../views/Process.vue')
   },
-  
+  {
+    path: '/blog',
+    name: "Blog",
+    component: () => import('../views/blog/Blog.vue')
+  },
+
 ]
 
 const router = new VueRouter({

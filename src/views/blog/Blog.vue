@@ -2,11 +2,9 @@
   <div>
     <AppLoader />
     <PageNavbar />
-    <AppBreadcrumb currentPage="Process" />
-    <!-- App Business -->
-    <AppBusiness />
-    <AppSolution />
-    <!-- App Business -->
+    <AppBreadcrumb currentPage="Blog Details" />
+    <MainBlog />
+    <RelatedBlog />
     <AppFooter />
   </div>
 </template>
@@ -15,8 +13,8 @@ import AppLoader from "@/components/AppLoader";
 import PageNavbar from "@/components/navbar/PageNavbar";
 import AppBreadcrumb from "@/components/AppBreadcrumb.vue";
 import AppFooter from "@/components/footer/AppFooterCommon.vue";
-import AppBusiness from "@/components/business/AppBusiness.vue";
-import AppSolution from "../components/business/AppSolution.vue";
+import MainBlog from "@/components/blog/MainBlog.vue";
+import RelatedBlog from "@/components/blog/RelatedBlog.vue";
 
 export default {
   name: "Process",
@@ -25,9 +23,10 @@ export default {
     PageNavbar,
     AppBreadcrumb,
     AppFooter,
-    AppBusiness,
-    AppSolution,
+    MainBlog,
+    RelatedBlog,
   },
 };
 </script>
-    
+ 
+      
