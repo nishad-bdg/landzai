@@ -39,6 +39,11 @@ const routes = [
     name: "ApplyForm",
     component: () => import('../views/ApplyForm.vue')
   },
+  {
+    path: '/blog-grid',
+    name: "BlogGrid",
+    component: () => import('../views/blog/BlogGrid.vue')
+  },
 ]
 
 const router = new VueRouter({
