@@ -86,6 +86,7 @@ export default {
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
         responsive: [
           {
             breakpoint: 1024,

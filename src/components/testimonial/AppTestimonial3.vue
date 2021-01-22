@@ -8,7 +8,7 @@
           </div>
         </div>
       </div>
-      <div class="testimonial-list-three testimonial-three-active">
+      <VueSlickCarousel v-bind="settings" class="">
         <div class="single-testimonial">
           <div class="testimonial-content">
             <p>
@@ -21,9 +21,9 @@
           <div class="clint-info">
             <div class="media">
               <img
-                src="images/testimonial/4.png"
+                src="assets/images/testimonial/4.png"
                 class="clint-img mr-4"
-                alt="images"
+                alt="assets/images"
               />
               <div class="media-body align-self-center">
                 <h4 class="clint-name"><a href="#">Jane Cooper</a></h4>
@@ -44,9 +44,9 @@
           <div class="clint-info">
             <div class="media">
               <img
-                src="images/testimonial/5.png"
+                src="assets/images/testimonial/5.png"
                 class="clint-img mr-4"
-                alt="images"
+                alt="assets/images"
               />
               <div class="media-body align-self-center">
                 <h4 class="clint-name"><a href="#">Annette Black</a></h4>
@@ -67,9 +67,9 @@
           <div class="clint-info">
             <div class="media">
               <img
-                src="images/testimonial/6.png"
+                src="assets/images/testimonial/6.png"
                 class="clint-img mr-4"
-                alt="images"
+                alt="assets/images"
               />
               <div class="media-body align-self-center">
                 <h4 class="clint-name"><a href="#">Bessie Cooper</a></h4>
@@ -90,9 +90,9 @@
           <div class="clint-info">
             <div class="media">
               <img
-                src="images/testimonial/4.png"
+                src="assets/images/testimonial/4.png"
                 class="clint-img mr-4"
-                alt="images"
+                alt="assets/images"
               />
               <div class="media-body align-self-center">
                 <h4 class="clint-name"><a href="#">Jane Cooper</a></h4>
@@ -101,12 +101,45 @@
             </div>
           </div>
         </div>
-      </div>
+      </VueSlickCarousel>
     </div>
   </section>
 </template>
 <script>
+import VueSlickCarousel from "vue-slick-carousel";
 export default {
-    name:"AppTestimonial3"
-}
+  name: "AppTestimonial3",
+  components: {
+    VueSlickCarousel,
+  },
+  data() {
+    return {
+      settings: {
+        arrows: false,
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 667,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+            },
+          },
+        ],
+      },
+    };
+  },
+};
 </script>
