@@ -11,7 +11,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <div class="testimonial-slide-two">
+          <VueSlickCarousel v-bind="settings" class="testimonial-slide-two">
             <div class="sigle-testimonial text-center">
               <div class="quote-iocn">
                 <i class="fas fa-quote-left"></i>
@@ -66,14 +66,46 @@
                 <span>CEO, Angular Corporation</span>
               </div>
             </div>
-          </div>
+          </VueSlickCarousel>
         </div>
       </div>
     </div>
   </section>
 </template>
 <script>
+import VueSlickCarousel from "vue-slick-carousel";
 export default {
-    name: "AppTestimonial2"
-}
+  name: "AppTestimonial2",
+  components: {
+    VueSlickCarousel,
+  },
+  data() {
+    return {
+      settings: {
+        arrows: false,
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 667,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+            },
+          },
+        ],
+      },
+    };
+  },
+};
 </script>
