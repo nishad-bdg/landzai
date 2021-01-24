@@ -45,7 +45,7 @@
     <app-testimonial></app-testimonial>
     <!-- testimonial area end here  -->
 
-    
+
 
     <!-- blog ara start here  -->
     <app-blog></app-blog>
@@ -94,7 +94,7 @@ export default {
   },
 };
 </script>
-    
 
-    
+
+
 

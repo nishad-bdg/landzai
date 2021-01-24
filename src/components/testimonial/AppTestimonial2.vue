@@ -17,7 +17,7 @@
                 <i class="fas fa-quote-left"></i>
               </div>
               <div class="clint-image">
-                <img src="images/testimonial/3.png" alt="testimonial" />
+                <img src="assets/images/testimonial/3.png" alt="testimonial" />
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
@@ -35,7 +35,7 @@
                 <i class="fas fa-quote-left"></i>
               </div>
               <div class="clint-image">
-                <img src="images/testimonial/2.png" alt="testimonial" />
+                <img src="assets/images/testimonial/2.png" alt="testimonial" />
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
@@ -53,7 +53,7 @@
                 <i class="fas fa-quote-left"></i>
               </div>
               <div class="clint-image">
-                <img src="images/testimonial/1.png" alt="testimonial" />
+                <img src="assets/images/testimonial/1.png" alt="testimonial" />
               </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus

@@ -1,5 +1,5 @@
 <template>
-  <section class="service-two-area section-top pb-90">
+  <section class="service-three-area section-top pb-90">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
@@ -23,6 +23,7 @@
               Lorem ipsum dolor, contetur apisc Nullam sit vel. Duis orci, enim
               suspdisse phasus sapien. Natoue eget mrbi
             </p>
+            <a class="explore-btn" href="#">Explore <i class="fas fa-long-arrow-alt-right"></i></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -35,6 +36,7 @@
               Lorem ipsum dolor, contetur apisc Nullam sit vel. Duis orci, enim
               suspdisse phasus sapien. Natoue eget mrbi
             </p>
+            <a class="explore-btn" href="#">Explore <i class="fas fa-long-arrow-alt-right"></i></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -47,6 +49,7 @@
               Lorem ipsum dolor, contetur apisc Nullam sit vel. Duis orci, enim
               suspdisse phasus sapien. Natoue eget mrbi
             </p>
+            <a class="explore-btn" href="#">Explore <i class="fas fa-long-arrow-alt-right"></i></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -59,6 +62,7 @@
               Lorem ipsum dolor, contetur apisc Nullam sit vel. Duis orci, enim
               suspdisse phasus sapien. Natoue eget mrbi
             </p>
+            <a class="explore-btn" href="#">Explore <i class="fas fa-long-arrow-alt-right"></i></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -71,6 +75,7 @@
               Lorem ipsum dolor, contetur apisc Nullam sit vel. Duis orci, enim
               suspdisse phasus sapien. Natoue eget mrbi
             </p>
+            <a class="explore-btn" href="#">Explore <i class="fas fa-long-arrow-alt-right"></i></a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
@@ -83,6 +88,7 @@
               Lorem ipsum dolor, contetur apisc Nullam sit vel. Duis orci, enim
               suspdisse phasus sapien. Natoue eget mrbi
             </p>
+            <a class="explore-btn" href="#">Explore <i class="fas fa-long-arrow-alt-right"></i></a>
           </div>
         </div>
       </div>

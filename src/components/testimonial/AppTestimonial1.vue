@@ -15,7 +15,8 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <VueSlickCarousel v-bind="settings">
+          <div class="content-height">
+            <VueSlickCarousel v-bind="settings">
             <div class="sigle-testimonial text-center">
               <div class="quote-iocn">
                 <i class="fas fa-quote-left"></i>
@@ -81,6 +82,7 @@
               </div>
             </div>
           </VueSlickCarousel>
+          </div>
         </div>
       </div>
     </div>
@@ -100,6 +102,9 @@ export default {
         dots: true,
         slidesToShow: 3,
         slidesToScroll: 1,
+        touchThreshold: 5,
+        speed: 500,
+        centerMode: true
       },
     };
   },
