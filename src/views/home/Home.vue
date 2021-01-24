@@ -25,7 +25,7 @@
         <app-built-app-1></app-built-app-1>
         <!-- built app area end here  -->
         <!-- price-table-area  start here  -->
-        <app-pricing-1></app-pricing-1>
+        <app-pricing></app-pricing>
         <!-- price-table-area  end here  -->
         <!-- faq area start here  -->
         <app-faq-1></app-faq-1>
@@ -51,6 +51,7 @@
 // @ is an alias to /src
 
 import AppLoader from '@/components/AppLoader'
+import AppPricing from '@/components/pricing/AppPricing1.vue'
 import AppNavbar1 from '@/components/navbar/AppNavbar1.vue'
 import AppFooter1 from '@/components/footer/AppFooter1.vue'
 import AppNavbarMobile1 from '@/components/navbar/AppNavbarMobile1.vue'
@@ -66,6 +67,7 @@ export default {
   name: 'Home',
   components: {
     AppLoader,
+    AppPricing,
     AppNavbar1,
     AppFooter1,
     AppNavbarMobile1,
