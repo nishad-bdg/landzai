@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="col-lg-12">
-        <div class="testimonial-slide-four">
+        <VueSlickCarousel v-bind="settings" class="testimonial-slide-four">
           <div class="sngle-testimonial">
             <div class="testimonial-content">
               <div class="quote-icon">
@@ -166,13 +166,46 @@
               </div>
             </div>
           </div>
-        </div>
+        </VueSlickCarousel>
       </div>
     </div>
   </section>
 </template>
 <script>
+import VueSlickCarousel from "vue-slick-carousel";
 export default {
-    name:"AppTestimonial4"
-}
+  name: "AppTestimonial4",
+  components: {
+    VueSlickCarousel,
+  },
+  data() {
+    return {
+      settings: {
+        arrows: false,
+        dots: true,
+        slidesToShow:1,
+        slidesToScroll: 1,
+        autoplay: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 667,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true,
+            },
+          },
+        ],
+      },
+    };
+  },
+};
 </script>
