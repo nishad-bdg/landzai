@@ -1,5 +1,5 @@
 <template>
-    <div class="team-area section-top pb-90 ">
+    <div class="team-area section-top pb-90 section-bg-color">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">

@@ -24,7 +24,7 @@
         </div>
         <div class="col-lg-6 col-md-5">
           <div class="fantastic-image">
-            <img src="images/fantastic.png" alt="fantastic image" />
+            <img src="assets/images/fantastic.png" alt="fantastic image" />
             <a
               href="https://youtu.be/01fswlREnjM"
               class="play-btn popup-video"

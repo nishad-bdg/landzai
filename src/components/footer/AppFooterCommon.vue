@@ -2,28 +2,7 @@
   <footer class="footer-area-v5">
     <div class="container">
       <!-- brands area start here  -->
-      <div class="brands-list-area">
-        <div class="brand-list slide-brands">
-          <div class="single-brand">
-            <a href="#"><img src="assets/images/brand/1.png" alt="brand anme" /></a>
-          </div>
-          <div class="single-brand">
-            <a href="#"><img src="assets/images/brand/2.png" alt="brand anme" /></a>
-          </div>
-          <div class="single-brand">
-            <a href="#"><img src="assets/images/brand/3.png" alt="brand anme" /></a>
-          </div>
-          <div class="single-brand">
-            <a href="#"><img src="assets/images/brand/4.png" alt="brand anme" /></a>
-          </div>
-          <div class="single-brand">
-            <a href="#"><img src="assets/images/brand/5.png" alt="brand anme" /></a>
-          </div>
-          <div class="single-brand">
-            <a href="#"><img src="assets/images/brand/6.png" alt="brand anme" /></a>
-          </div>
-        </div>
-      </div>
+      <app-brand-1></app-brand-1>
       <!-- brands area end here  -->
       <div class="footer-widget-area">
         <div class="row">
@@ -95,7 +74,11 @@
   </footer>
 </template>
 <script>
+import AppBrand1 from '@/components/brand/AppBrand1.vue'
 export default {
-    name: "AppFooterCommon"
+    name: "AppFooterCommon",
+    components:{
+        AppBrand1
+    },
 }
 </script>

@@ -12,7 +12,7 @@
             <div class="section-title-four">
               <h2 class="title">
                 Use Timeline <span>to plan</span>
-                <span class="color-two">projects</span> right the first time See
+                <span class="color-two"> projects</span> right the first time See
                 hotel
               </h2>
             </div>

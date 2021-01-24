@@ -38,9 +38,9 @@ export default {
         WhyChooseUs,
         AppTeam,
         PageTestimonial,
-        AppFaq,
+        AppFaq
     },
-    
+
 }
-        
+
 </script>

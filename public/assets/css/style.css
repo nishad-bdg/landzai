@@ -19,7 +19,7 @@ Version: 1.0
 8.section-title
 9.work-area
 10.service-area
-11.built-app-area 
+11.built-app-area
 12.price-table-area
 13.faq-area
 14.app-screens-area
@@ -29,7 +29,7 @@ Version: 1.0
 18.callto-action
 19.subbanner-area
 20.features-area
-21.about-area 
+21.about-area
 22.support-area
 23.feedback-aera
 24.section-bg
@@ -1037,6 +1037,7 @@ header-v4
 .footer-widget-area {
   padding: 5rem 0 2rem 0;
   border-bottom: 1px solid var(--border-color);
+  text-align: left;
 }
 .footer-widget-area .single-widget {
   margin-bottom: 3rem;
@@ -1320,6 +1321,11 @@ footer-area-v3
   background: var(--secondary-color-three);
   color: var(--white);
 }
+.footer-area-v5 .brands-area {
+  margin-top: 8rem;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
 .footer-area-v5 .brands-list-area {
   margin-top: 8rem;
   padding: 2.5rem 0;
@@ -1467,6 +1473,7 @@ footer-area-v3
 }
 .banner-area .banner-text-wrap {
   padding-bottom: 10rem;
+  text-align: left;
 }
 .banner-area .banner-text-wrap .banner-title {
   margin-bottom: 1rem;
@@ -1610,6 +1617,9 @@ banner-area-v3
   background: url("../images/banner-bg-v3.jpg") no-repeat center/cover;
   overflow: hidden;
 }
+.banner-area-v3 .banner-info {
+  text-align: left;
+}
 .banner-area-v3 .banner-info h2 {
   margin-bottom: 3rem;
   font-family: "Source Sans Pro", sans-serif;
@@ -1655,6 +1665,9 @@ banner-area-v4
   padding: 28rem 0 23rem 0;
   background: url("../images/banner-bg-v4.png") no-repeat center/cover;
   overflow: hidden;
+}
+.banner-area-v4 .banner-info {
+  text-align: left;
 }
 .banner-area-v4 .banner-info h2 {
   margin-bottom: 2rem;
@@ -1923,6 +1936,7 @@ banner-area-v4
 .work-area .single-work {
   margin-bottom: 30px;
   padding: 3rem;
+  text-align: left;
   background: var(--white);
   border-radius: 1.2rem;
   -webkit-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
@@ -1950,6 +1964,7 @@ work-area-two
 ---------------------------*/
 .work-area-two .work-list {
   margin-bottom: -3rem;
+  text-align: left;
 }
 .work-area-two .sigle-work {
   margin-bottom: 3rem;
@@ -2074,7 +2089,7 @@ service-two-area
 }
 
 /*--------------------------
-service-three-area 
+service-three-area
 ---------------------------*/
 .service-three-area .single-service {
   padding: 4rem 2rem 3.5rem 2rem;
@@ -2139,7 +2154,7 @@ service-three-area
 }
 
 /*--------------------------
-11.built-app-area 
+11.built-app-area
 ---------------------------*/
 .built-app-area h2 {
   margin-bottom: 1.9rem;
@@ -2168,6 +2183,7 @@ service-three-area
 .single-price {
   margin-bottom: 3rem;
   padding: 3.5rem 2.5rem;
+  text-align: left;
   border-radius: 2rem;
   background: var(--white);
   -webkit-box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
@@ -2424,7 +2440,6 @@ pricing-area-two
   color: var(--color-one);
 }
 .pricing-area-two .price-info-box .price-top span {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.8rem;
   text-transform: capitalize;
   font-weight: 400;
@@ -2626,6 +2641,7 @@ pricing-area-three
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.4rem;
+  text-align: left;
   color: var(--bColor);
 }
 .faq-area .faq-img {
@@ -2633,7 +2649,7 @@ pricing-area-three
 }
 
 /*--------------------------
-faq-area-two 
+faq-area-two
 ---------------------------*/
 .faq-area-two .card {
   border: none;
@@ -2691,6 +2707,7 @@ faq-area-two
 .faq-area-two .card .card-body {
   padding: 2rem 1.5rem;
   background: #fff7f6;
+  text-align: left;
 }
 .faq-area-two .card p {
   margin: 0;
@@ -2760,6 +2777,7 @@ faq-area-three
 }
 .faq-area-three .faq-list .card .card-body {
   padding: 0;
+  text-align: left;
 }
 .faq-area-three .faq-list .card p {
   font-size: 1.4rem;
@@ -2830,6 +2848,9 @@ faq-area-three
 /*--------------------------
 15.testimonial-area
 ---------------------------*/
+.content-height .slick-list {
+  height: 500px;
+}
 .testimonial-area .slick-slider {
   margin: 0 -15px;
 }
@@ -3089,7 +3110,6 @@ testimonial-two-area
 }
 .testimonial-two-area .sigle-testimonial .clinmg-info h4 {
   margin-bottom: 0.5rem;
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -3104,7 +3124,6 @@ testimonial-two-area
   color: var(--hover-color);
 }
 .testimonial-two-area .sigle-testimonial .clinmg-info span {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   text-transform: capitalize;
@@ -3170,7 +3189,6 @@ testimonial-two-area
 }
 .testimonial-three-area .single-testimonial .clint-info .clint-name {
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 2.2rem;
   text-transform: capitalize;
   font-weight: 700;
@@ -3480,7 +3498,6 @@ testimonial-five-area
 }
 .testimonial-five-area .sigle-testimonial .clinmg-info h4 {
   margin-bottom: 0.5rem;
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -3495,7 +3512,6 @@ testimonial-five-area
   color: #2896f7;
 }
 .testimonial-five-area .sigle-testimonial .clinmg-info span {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   text-transform: capitalize;
@@ -3582,6 +3598,7 @@ testimonial-five-area
 }
 .blog-area .single-blog .blog-info {
   padding: 3rem 2rem;
+  text-align: left;
 }
 .blog-area .single-blog .blog-info .blog-title {
   margin-top: -0.5rem;
@@ -3675,6 +3692,7 @@ blog-area-two
 }
 .blog-area-two .single-blog .blog-info {
   padding: 3rem 2rem;
+  text-align: left;
 }
 .blog-area-two .single-blog .blog-info .blog-title {
   margin-top: -0.5rem;
@@ -3687,6 +3705,7 @@ blog-area-two
 }
 .blog-area-two .single-blog .blog-info .blog-title a {
   color: var(--text-color-four);
+  text-align: left;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
@@ -3772,6 +3791,7 @@ blog-area-three
 }
 .blog-area-three .single-blog .blog-info {
   padding: 3rem 2rem;
+  text-align: left;
 }
 .blog-area-three .single-blog .blog-info .blog-title {
   margin-top: -0.5rem;
@@ -3869,6 +3889,7 @@ blog-area-four
 }
 .blog-area-four .single-blog .blog-info {
   padding: 3rem 2rem;
+  text-align: left;
 }
 .blog-area-four .single-blog .blog-info .blog-title {
   margin-top: -0.5rem;
@@ -4483,7 +4504,7 @@ features-area-three
 }
 
 /*--------------------------
-21.about-area 
+21.about-area
 ---------------------------*/
 .about-area {
   position: relative;
@@ -4504,6 +4525,7 @@ features-area-three
   font-size: 1.6rem;
   line-height: 2.6rem;
   font-weight: 400;
+  text-align: left;
   color: var(--bColor);
   margin: 1.5rem 0 3rem 0;
 }
@@ -4514,6 +4536,7 @@ about-area-two
 .about-area-two .about-info {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid #e3e3e3;
+  text-align: left;
 }
 .about-area-two .about-info p {
   margin-top: 0;
@@ -4529,7 +4552,8 @@ about-area-two
 }
 .about-area-two .counter-list .single-counter {
   -ms-flex-preferred-size: 33%;
-      flex-basis: 33%;
+  flex-basis: 33%;
+  text-align: left;
 }
 .about-area-two .counter-list .single-counter:nth-child(2) .counter-number span {
   color: #ff6c62;
@@ -4558,6 +4582,9 @@ about-area-three
 ---------------------------*/
 .about-area-three {
   background: url("../images/about-area-three-bg.png") no-repeat center/cover;
+}
+.about-area-three .about-info {
+  text-align: left;
 }
 .about-area-three .about-info .section-title-four {
   margin-bottom: 2.3rem;
@@ -4790,6 +4817,9 @@ feedback-area
 /*-------------------------
 26.highlights-product
 --------------------------*/
+.highlights-product-info {
+  text-align: left;
+}
 .highlights-product-area .highlights-product-info .section-title-three {
   margin-bottom: 3rem;
 }
@@ -5232,6 +5262,9 @@ feedback-area
   margin: auto;
   border-radius: 50%;
 }
+.best-solution-area .best-solution-info {
+  text-align: left;
+}
 .best-solution-area .best-solution-info h2 {
   font-family: "Rubik", sans-serif;
   font-size: 3.6rem;
@@ -5528,6 +5561,9 @@ best-solution-two-area
   -webkit-box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
 }
+.solution-video-area .solution-info {
+  text-align: left;
+}
 .solution-video-area .solution-info h2 {
   font-family: "Rubik", sans-serif;
   font-size: 3.6rem;
@@ -5677,6 +5713,9 @@ best-solution-two-area
 ---------------------------*/
 .exceptional-area {
   background: #f9f9f9;
+}
+.exceptional-info {
+  text-align: left;
 }
 .exceptional-area .exceptional-info h2 {
   margin-bottom: 1.5rem;
