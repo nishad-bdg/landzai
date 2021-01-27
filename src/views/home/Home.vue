@@ -34,7 +34,7 @@
         <app-screen-1></app-screen-1>
         <!-- App Screens area end here  -->
         <!-- testimonial area start here  -->
-        <!-- <app-testimonial-1></app-testimonial-1> -->
+        <app-testimonial-1></app-testimonial-1>
         <!-- testimonial area end here  -->
 
         <!-- blog ara start here  -->
@@ -60,7 +60,7 @@ import AppBrand1 from '@/components/brand/AppBrand1.vue'
 import WorkArea1 from '@/components/work_area/WorkArea1.vue'
 import AppServices1 from '@/components/service/AppServices1.vue'
 import AppFaq1 from '@/components/faq/AppFaq1.vue'
-// import AppTestimonial1 from '@/components/testimonial/AppTestimonial1.vue'
+import AppTestimonial1 from '@/components/testimonial/AppTestimonial1.vue'
 import AppScreen1 from '@/components/app_screens/AppScreen1.vue'
 import AppBlog1 from '@/components/blog/AppBlog1.vue'
 import AppBuiltApp1 from '@/components/built_app/AppBuiltApp1.vue'
@@ -77,7 +77,7 @@ export default {
     WorkArea1,
     AppServices1,
     AppFaq1,
-    // AppTestimonial1,
+    AppTestimonial1,
     AppScreen1,
     AppBuiltApp1,
     AppBlog1,

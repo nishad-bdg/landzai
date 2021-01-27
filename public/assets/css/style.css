@@ -2857,8 +2857,8 @@ faq-area-three
 .testimonial-area .slick-slide {
   padding-bottom: 4rem;
   text-align: center;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 8px;
+  margin-left: -5px;
 }
 .testimonial-area .slick-dots {
   margin: 0;
@@ -2891,6 +2891,7 @@ faq-area-three
 }
 .testimonial-area .sigle-testimonial {
   padding: 4rem 2.5rem;
+  max-width: 90%;
   background: #ffffff;
   border-radius: 2rem;
   -webkit-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);

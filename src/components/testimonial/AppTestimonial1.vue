@@ -104,7 +104,6 @@ export default {
         slidesToScroll: 1,
         touchThreshold: 5,
         speed: 500,
-        centerMode: true
       },
     };
   },
