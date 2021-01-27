@@ -17,71 +17,83 @@
         <div class="col-lg-12">
           <div class="content-height">
             <VueSlickCarousel v-bind="settings">
-            <div class="sigle-testimonial text-center">
-              <div class="quote-iocn">
-                <i class="fas fa-quote-left"></i>
+              <div class="sigle-testimonial text-center">
+                <div class="quote-iocn">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="clint-image">
+                  <img
+                    src="assets/images/testimonial/1.png"
+                    alt="testimonial"
+                  />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet, kasd gubergren, no sea takimata
+                  dolores et ea rebum. Stet clita
+                </p>
+                <div class="clinmg-info">
+                  <h4><a href="#">Ronald Richards</a></h4>
+                  <span>CEO, Angular Corporation</span>
+                </div>
               </div>
-              <div class="clint-image">
-                <img src="assets/images/testimonial/1.png" alt="testimonial" />
+              <div class="sigle-testimonial text-center">
+                <div class="quote-iocn">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="clint-image">
+                  <img
+                    src="assets/images/testimonial/2.png"
+                    alt="testimonial"
+                  />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet, kasd gubergren, no sea takimata
+                  dolores et ea rebum. Stet clita
+                </p>
+                <div class="clinmg-info">
+                  <h4><a href="#">Jerome Bell</a></h4>
+                  <span>CEO, Angular Corporation</span>
+                </div>
               </div>
-              <p>
-                “Lorem ipsum dolor sit amet, kasd gubergren, no sea takimata
-                dolores et ea rebum. Stet clita
-              </p>
-              <div class="clinmg-info">
-                <h4><a href="#">Ronald Richards</a></h4>
-                <span>CEO, Angular Corporation</span>
+              <div class="sigle-testimonial text-center">
+                <div class="quote-iocn">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="clint-image">
+                  <img
+                    src="assets/images/testimonial/3.png"
+                    alt="testimonial"
+                  />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet, kasd gubergren, no sea takimata
+                  dolores et ea rebum. Stet clita
+                </p>
+                <div class="clinmg-info">
+                  <h4><a href="#">Savannah Nguyen</a></h4>
+                  <span>CEO, Angular Corporation</span>
+                </div>
               </div>
-            </div>
-            <div class="sigle-testimonial text-center">
-              <div class="quote-iocn">
-                <i class="fas fa-quote-left"></i>
+              <div class="sigle-testimonial text-center">
+                <div class="quote-iocn">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="clint-image">
+                  <img
+                    src="assets/images/testimonial/3.png"
+                    alt="testimonial"
+                  />
+                </div>
+                <p>
+                  “Lorem ipsum dolor sit amet, kasd gubergren, no sea takimata
+                  dolores et ea rebum. Stet clita
+                </p>
+                <div class="clinmg-info">
+                  <h4><a href="#">Savannah Nguyen</a></h4>
+                  <span>CEO, Angular Corporation</span>
+                </div>
               </div>
-              <div class="clint-image">
-                <img src="assets/images/testimonial/2.png" alt="testimonial" />
-              </div>
-              <p>
-                “Lorem ipsum dolor sit amet, kasd gubergren, no sea takimata
-                dolores et ea rebum. Stet clita
-              </p>
-              <div class="clinmg-info">
-                <h4><a href="#">Jerome Bell</a></h4>
-                <span>CEO, Angular Corporation</span>
-              </div>
-            </div>
-            <div class="sigle-testimonial text-center">
-              <div class="quote-iocn">
-                <i class="fas fa-quote-left"></i>
-              </div>
-              <div class="clint-image">
-                <img src="assets/images/testimonial/3.png" alt="testimonial" />
-              </div>
-              <p>
-                “Lorem ipsum dolor sit amet, kasd gubergren, no sea takimata
-                dolores et ea rebum. Stet clita
-              </p>
-              <div class="clinmg-info">
-                <h4><a href="#">Savannah Nguyen</a></h4>
-                <span>CEO, Angular Corporation</span>
-              </div>
-            </div>
-            <div class="sigle-testimonial text-center">
-              <div class="quote-iocn">
-                <i class="fas fa-quote-left"></i>
-              </div>
-              <div class="clint-image">
-                <img src="assets/images/testimonial/3.png" alt="testimonial" />
-              </div>
-              <p>
-                “Lorem ipsum dolor sit amet, kasd gubergren, no sea takimata
-                dolores et ea rebum. Stet clita
-              </p>
-              <div class="clinmg-info">
-                <h4><a href="#">Savannah Nguyen</a></h4>
-                <span>CEO, Angular Corporation</span>
-              </div>
-            </div>
-          </VueSlickCarousel>
+            </VueSlickCarousel>
           </div>
         </div>
       </div>
@@ -104,6 +116,22 @@ export default {
         slidesToScroll: 1,
         touchThreshold: 5,
         speed: 500,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 667,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
       },
     };
   },

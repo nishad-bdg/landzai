@@ -9,7 +9,7 @@
         </div>
       </div>
       <VueSlickCarousel v-bind="settings" class="">
-        <div class="single-testimonial">
+        <div class="single-testimonial" v-for="i in 6" :key="i" >
           <div class="testimonial-content">
             <p>
               “Lorem ipsum dolor sit amet, connse ctetubfsr adipiscing elit.
@@ -21,7 +21,7 @@
           <div class="clint-info">
             <div class="media">
               <img
-                src="assets/images/testimonial/4.png"
+                src="assets/images/testimonial/1.png"
                 class="clint-img mr-4"
                 alt="assets/images"
               />
@@ -31,76 +31,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="single-testimonial">
-          <div class="testimonial-content">
-            <p>
-              “Lorem ipsum dolor sit amet, connse ctetubfsr adipiscing elit.
-              Commodo ferm entgtum aliquam aliquam pos uerere eget. Ultrices
-              enim eget sjyit Commodo ferm entg tudgrg aliqaliquam pos uerere
-              eget. Ultrices aliquam dfhbyj tyan
-            </p>
-          </div>
-          <div class="clint-info">
-            <div class="media">
-              <img
-                src="assets/images/testimonial/5.png"
-                class="clint-img mr-4"
-                alt="assets/images"
-              />
-              <div class="media-body align-self-center">
-                <h4 class="clint-name"><a href="#">Annette Black</a></h4>
-                <span>CEO, Angular Corpor</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="single-testimonial">
-          <div class="testimonial-content">
-            <p>
-              “Lorem ipsum dolor sit amet, connse ctetubfsr adipiscing elit.
-              Commodo ferm entgtum aliquam aliquam pos uerere eget. Ultrices
-              enim eget sjyit Commodo ferm entg tudgrg aliqaliquam pos uerere
-              eget. Ultrices aliquam dfhbyj tyan
-            </p>
-          </div>
-          <div class="clint-info">
-            <div class="media">
-              <img
-                src="assets/images/testimonial/6.png"
-                class="clint-img mr-4"
-                alt="assets/images"
-              />
-              <div class="media-body align-self-center">
-                <h4 class="clint-name"><a href="#">Bessie Cooper</a></h4>
-                <span>CEO, Angular Corpor</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="single-testimonial">
-          <div class="testimonial-content">
-            <p>
-              “Lorem ipsum dolor sit amet, connse ctetubfsr adipiscing elit.
-              Commodo ferm entgtum aliquam aliquam pos uerere eget. Ultrices
-              enim eget sjyit Commodo ferm entg tudgrg aliqaliquam pos uerere
-              eget. Ultrices aliquam dfhbyj tyan
-            </p>
-          </div>
-          <div class="clint-info">
-            <div class="media">
-              <img
-                src="assets/images/testimonial/4.png"
-                class="clint-img mr-4"
-                alt="assets/images"
-              />
-              <div class="media-body align-self-center">
-                <h4 class="clint-name"><a href="#">Jane Cooper</a></h4>
-                <span>CEO, Angular Corpor</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div> 
       </VueSlickCarousel>
     </div>
   </section>
