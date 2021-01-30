@@ -22,7 +22,7 @@
         <div class="col-lg-6 offset-lg-1">
           <div class="work-lsit work-slide">
             <VueSlickCarousel v-bind="settings">
-              <div class="single-work" v-for="i in 5" :key="i">
+              <div class="single-work" v-for="i in 10" :key="i">
                 <h3>Task Management</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -49,7 +49,7 @@ export default {
     return {
       settings: {
         arrows: false,
-        dots: true,
+        dots: false,
         slidesToShow: 3,
         slidesToScroll: 1,
         touchThreshold: 5,
