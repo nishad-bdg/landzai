@@ -70,7 +70,7 @@ import AppAbout from "@/components/about/AppAbout2.vue";
 import AppSupport from "@/components/support/AppSupport.vue";
 import AppFeedback from "@/components/feedback/AppFeedback.vue";
 import AppTestimonial from "@/components/testimonial/AppTestimonial3.vue";
-import AppFooter from "@/components/footer/AppFooter2.vue";
+import AppFooter from "@/components/footer/AppFooter4.vue";
 import AppProductHightlight from "@/components/product/AppProductHightlight.vue";
 import AppSpeciality from "@/components/speciality/AppSpeciality.vue";
 import AppProduct from "@/components/product/AppProduct.vue";

@@ -197,7 +197,7 @@
             >
               <div class="singl-job-left d-flex align-items-center">
                 <div class="brand-image">
-                  <img src="images/brand-icon-1.png" alt="brand-icon" />
+                  <img src="assets/images/brand-icon-1.png" alt="brand-icon" />
                 </div>
                 <div class="job-decription">
                   <h3 class="job-name">Visual Designer</h3>
@@ -212,7 +212,7 @@
                 </div>
               </div>
               <div class="button-area">
-                <a class="applay-btn" href="career-details.html">Apply</a>
+                <a class="applay-btn" href="#">Apply</a>
               </div>
             </div>
             <div
@@ -220,7 +220,7 @@
             >
               <div class="singl-job-left d-flex align-items-center">
                 <div class="brand-image">
-                  <img src="images/brand-icon-2.png" alt="brand-icon" />
+                  <img src="assets/images/brand-icon-2.png" alt="brand-icon" />
                 </div>
                 <div class="job-decription">
                   <h3 class="job-name">Graphic Designer</h3>
@@ -235,7 +235,7 @@
                 </div>
               </div>
               <div class="button-area">
-                <a class="applay-btn" href="career-details.html">Apply</a>
+                <a class="applay-btn" href="#">Apply</a>
               </div>
             </div>
             <div
@@ -243,7 +243,7 @@
             >
               <div class="singl-job-left d-flex align-items-center">
                 <div class="brand-image">
-                  <img src="images/brand-icon-1.png" alt="brand-icon" />
+                  <img src="assets/images/brand-icon-1.png" alt="brand-icon" />
                 </div>
                 <div class="job-decription">
                   <h3 class="job-name">UX Researcher</h3>
@@ -258,7 +258,7 @@
                 </div>
               </div>
               <div class="button-area">
-                <a class="applay-btn" href="career-details.html">Apply</a>
+                <a class="applay-btn" href="#">Apply</a>
               </div>
             </div>
             <div
@@ -266,7 +266,7 @@
             >
               <div class="singl-job-left d-flex align-items-center">
                 <div class="brand-image">
-                  <img src="images/brand-icon-3.png" alt="brand-icon" />
+                  <img src="assets/images/brand-icon-3.png" alt="brand-icon" />
                 </div>
                 <div class="job-decription">
                   <h3 class="job-name">UI Designer</h3>
@@ -281,7 +281,7 @@
                 </div>
               </div>
               <div class="button-area">
-                <a class="applay-btn" href="career-details.html">Apply</a>
+                <a class="applay-btn" href="#">Apply</a>
               </div>
             </div>
             <div
@@ -289,7 +289,7 @@
             >
               <div class="singl-job-left d-flex align-items-center">
                 <div class="brand-image">
-                  <img src="images/brand-icon-1.png" alt="brand-icon" />
+                  <img src="assets/images/brand-icon-1.png" alt="brand-icon" />
                 </div>
                 <div class="job-decription">
                   <h3 class="job-name">Product Designer</h3>
@@ -304,7 +304,7 @@
                 </div>
               </div>
               <div class="button-area">
-                <a class="applay-btn" href="career-details.html">Apply</a>
+                <a class="applay-btn" href="#">Apply</a>
               </div>
             </div>
             <div
@@ -312,7 +312,7 @@
             >
               <div class="singl-job-left d-flex align-items-center">
                 <div class="brand-image">
-                  <img src="images/brand-icon-1.png" alt="brand-icon" />
+                  <img src="assets/images/brand-icon-1.png" alt="brand-icon" />
                 </div>
                 <div class="job-decription">
                   <h3 class="job-name">Visual Designer</h3>
@@ -327,7 +327,7 @@
                 </div>
               </div>
               <div class="button-area">
-                <a class="applay-btn" href="career-details.html">Apply</a>
+                <a class="applay-btn" href="#">Apply</a>
               </div>
             </div>
             <div
@@ -335,7 +335,7 @@
             >
               <div class="singl-job-left d-flex align-items-center">
                 <div class="brand-image">
-                  <img src="images/brand-icon-3.png" alt="brand-icon" />
+                  <img src="assets/images/brand-icon-3.png" alt="brand-icon" />
                 </div>
                 <div class="job-decription">
                   <h3 class="job-name">Junior Designer</h3>
@@ -350,7 +350,7 @@
                 </div>
               </div>
               <div class="button-area">
-                <a class="applay-btn" href="career-details.html">Apply</a>
+                <a class="applay-btn" href="#">Apply</a>
               </div>
             </div>
           </div>

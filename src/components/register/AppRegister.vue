@@ -5,12 +5,12 @@
                     <div class="col-lg-6 order-1 order-lg-0">
                         <div class="register-info">
                             <div class="brand-logo">
-                                <img src="images/logo4.png" alt="logo" />
+                                <img src="assets/images/logo4.png" alt="logo" />
                             </div>
                             <h2>Welcome to Landzai</h2>
                             <p>Non tellus tempus, quis vel eros sed. Curabitur purus, ac sit sed egestas vulputate. Massa pellentesque ante quam enim, sit.</p>
                             <div class="register-left-image">
-                                <img src="images/register-left-img.png" alt="images" />
+                                <img src="assets/images/register-left-img.png" alt="images" />
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                                        </div>
                                         <div class="tab-register text-center">
                                             <h4 class="otehr-option"><span>or</span></h4>
-                                            <a class="google-regiter" href="#"> <img src="images/gogole-icon.png" alt="gogole-icon" /> Sign Up with Google</a>
+                                            <a class="google-regiter" href="#"> <img src="assets/images/gogole-icon.png" alt="gogole-icon" /> Sign Up with Google</a>
                                             <p>Already have account?  <a href="#">Sign In</a></p>
                                         </div>
                                    </div>
@@ -103,7 +103,7 @@
                                         </div>
                                          <div class="tab-register text-center">
                                             <h4 class="otehr-option"><span>or</span></h4>
-                                            <a class="google-regiter" href="#"> <img src="images/gogole-icon.png" alt="gogole-icon" /> Sign In with Google</a>
+                                            <a class="google-regiter" href="#"><img src="assets/images/gogole-icon.png" alt="gogole-icon" /> Sign In with Google</a>
                                             <p>New user?  <a href="#">Sign Up</a> for free</p>
                                          </div>
                                     </div>

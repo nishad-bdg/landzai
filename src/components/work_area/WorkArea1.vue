@@ -21,17 +21,30 @@
         </div>
         <div class="col-lg-6 offset-lg-1">
           <div class="work-lsit work-slide">
-            <VueSlickCarousel v-bind="settings">
-              <div class="single-work" v-for="i in 10" :key="i">
-                <h3>Task Management</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mattis viverra aliquam lectus nibh habitant rhoncus
-                  pellentesque etiam posuere. Gravida nunc id vulputate mauris
-                  amet, varius iuea er.
-                </p>
-              </div>
-            </VueSlickCarousel>
+            <div class="single-work">
+              <h3>Task Management</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis
+                viverra aliquam lectus nibh habitant rhoncus pellentesque etiam
+                posuere. Gravida nunc id vulputate mauris amet, varius iuea er.
+              </p>
+            </div>
+            <div class="single-work">
+              <h3>Task Management</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis
+                viverra aliquam lectus nibh habitant rhoncus pellentesque etiam
+                posuere. Gravida nunc id vulputate mauris amet, varius iuea er.
+              </p>
+            </div>
+            <div class="single-work">
+              <h3>Task collaboration</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis
+                viverra aliquam lectus nibh habitant rhoncus pellentesque etiam
+                posuere. Gravida nunc id vulputate mauris amet, varius iuea er.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -39,24 +52,7 @@
   </section>
 </template>
 <script>
-import VueSlickCarousel from "vue-slick-carousel";
 export default {
-  name: "WorkArea1",
-  components: {
-    VueSlickCarousel,
-  },
-  data() {
-    return {
-      settings: {
-        arrows: false,
-        dots: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        touchThreshold: 5,
-        speed: 500,
-        vertical: true,
-      },
-    };
-  },
-};
+    name: "WorkArea1"
+}
 </script>

@@ -30,7 +30,7 @@
                                             <div class="single-prdocut">
                                                 <div class="media">
                                                     <div class="product-image mr-3">
-                                                        <img src="images/products/cart1.png" alt="cart" />
+                                                        <img src="assets/images/products/cart1.png" alt="cart" />
                                                     </div>
                                                     <div class="media-body align-self-center">
                                                       <h4 class="product-name"><a href="#">Printed Mug</a></h4>
@@ -50,7 +50,7 @@
                                             <div class="single-prdocut">
                                                 <div class="media">
                                                     <div class="product-image mr-3">
-                                                        <img src="images/products/cart2.png" alt="cart" />
+                                                        <img src="assets/images/products/cart2.png" alt="cart" />
                                                     </div>
                                                     <div class="media-body align-self-center">
                                                       <h4 class="product-name"><a href="#">Sunglass</a></h4>
@@ -70,7 +70,7 @@
                                             <div class="single-prdocut">
                                                 <div class="media">
                                                     <div class="product-image mr-3">
-                                                        <img src="images/products/cart3.png" alt="cart" />
+                                                        <img src="assets/images/products/cart3.png" alt="cart" />
                                                     </div>
                                                     <div class="media-body align-self-center">
                                                       <h4 class="product-name"><a href="#">Wooden Chair</a></h4>
@@ -90,7 +90,7 @@
                                             <div class="single-prdocut">
                                                 <div class="media">
                                                     <div class="product-image mr-3">
-                                                        <img src="images/products/cart4.png" alt="cart" />
+                                                        <img src="assets/images/products/cart4.png" alt="cart" />
                                                     </div>
                                                     <div class="media-body align-self-center">
                                                       <h4 class="product-name"><a href="#">T-shirt</a></h4>
